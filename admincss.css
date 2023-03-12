@@ -1,0 +1,105 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    
+    background-image: url('pimg/adminback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('pimg/adminback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+    button:hover {
+        background-color: #3a3833;
+        top: 0;
+        left: 0;
+    }
+
+.navbar {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar i:hover,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar i:active {
+        color: coral;
+    }
+
+
+.navbar-light .navbar-cat .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+    .navbar-light .navbar-cat .nav-link:hover,
+    .navbar i:hover,
+    .navbar-light .navbar-cat .nav-link.active,
+    .navbar i:active {
+        color: coral;
+    }
+
+.navbar i {
+    /* font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease; */
+    cursor: pointer;
+    /* font-weight: 500; */
+    transition: 0.3s ease;
+    padding: 0 7px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 00.3s ease;
+    color: black;
+}
+
+.cat {
+    margin-left: 300px;
+}
+

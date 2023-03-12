@@ -1,0 +1,66 @@
+﻿body {
+    background-image: url('img/img6.jpg');
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    left: 50%;
+}
+
+form {
+    width: 650px;
+    margin-left: 750px;
+    /* background-color: rgba(255,255,255,0.1); */
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(8 7 16 / 70%);
+    padding: 50px 35px;
+}
+
+    form * {
+        font-family: 'Poor Richard',sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.9px;
+        outline: none;
+        border: none;
+    }
+
+input {
+    display: block;
+    height: 40px;
+    width: 95%;
+    /*background-color: rgba(255,255,255,0.07);*/ background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#btnsend {
+    margin-left: 1px;
+    background-color: cyan;
+    color: Black;
+    width: 80px;
+}
+
+#btnback {
+    margin-left: 1px;
+    background-color: cyan;
+    color: Black;
+    width: 80px;
+}
+}

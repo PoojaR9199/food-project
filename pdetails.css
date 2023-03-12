@@ -1,0 +1,36 @@
+﻿.input[type=radio]
+{
+    margin-left:10px;
+    margin-right:10px; 
+}
+
+/*#btnaddtocart {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}*/
+.buy-btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}*
+
+    .buy-btn:hover {
+        background-color: black;
+        color: white;
+    }
+

@@ -1,0 +1,87 @@
+﻿body {
+    background-image: url('feedback_img/feed_back.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.panel {
+    margin-left: 500px;
+}
+
+.panel1 {
+    margin-left: 5px;
+}
+
+.btn_pay {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,0,0);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    margin-left: 530px;
+    width: 150px;
+}
+
+    .btn_pay:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.btn_cancel {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,0,0);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    margin-left: 30px;
+    width: 150px;
+}
+
+    .btn_cancel:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.txt_name {
+    margin-left: 50px;
+}
+
+.txt_cardnum {
+    margin-left: 50px;
+}
+
+.txt_cvv {
+    margin-left: 50px;
+}
+
+.drp_month {
+    margin-left: 50px;
+}
+
+.drp_year {
+    margin-left: 50px;
+}
+
+.txt_adamt {
+    margin-left: 50px;
+}
+
+.table_pay {
+    margin-left: -70px;
+}
+
+.required_validator {
+    margin-left: 50px;
+}
+
+.regular_validator {
+    margin-left: 50px;
+}

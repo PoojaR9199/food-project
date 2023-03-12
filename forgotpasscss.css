@@ -1,0 +1,165 @@
+﻿/*body {
+    background-image: url('img/cake4.jpg');
+    background-size: cover;
+    background-image: url('img/cake3.jpg');
+    margin: 0;
+    padding: 0;
+    
+    font-family: sans-serif;
+        
+}
+
+.change_pass {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% -50px );
+    position: fixed;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    color: rgb(200,0,0);
+    text-align: center;
+}
+
+.lbl_npass, .lbl_cnpass {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtnpass, .txtcnpass {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtnpass, .txtcnpass {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.btn_cchange {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,0,0);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btn_cchange:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.btn_cclear {
+    border: none;
+    outline: outset;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    margin-left: 120px;
+}*/
+
+body{
+    background-image: url('img/cake4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background {
+    width: 430px;
+    height: 550px;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    left: 50%;
+    
+}
+form {
+    width: 348px;
+    /* background-color: rgba(255,255,255,0.1); */
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(8 7 16 / 70%);
+    padding: 50px 35px;
+}
+
+    form * {
+        font-family: 'Poor Richard',sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+
+    form h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+    }
+
+input {
+    display: block;
+    height: 40px;
+    width: 95%;
+    /*background-color: rgba(255,255,255,0.07);*/ background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#Button1 {
+    
+    margin-left: 125px;
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+
+#Button2 {
+    margin-left: 125px;
+    background-color: #00CC66;
+    color: Black;
+    width: 150px;
+}
+#Button3{
+    margin-left: 125px;
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+
